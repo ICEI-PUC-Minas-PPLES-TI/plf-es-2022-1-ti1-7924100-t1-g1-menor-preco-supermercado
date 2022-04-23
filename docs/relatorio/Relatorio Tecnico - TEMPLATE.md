@@ -135,7 +135,9 @@ Nosso público alvo são pessoas de classe  média ou baixa, normalmente respons
 
 ## Personas e Mapas de Empatia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+(imaages/../images/persona1.png)
+(imaages/../images/persona2.png)
+(imaages/../images/persona3.png)
 
 
 > Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
