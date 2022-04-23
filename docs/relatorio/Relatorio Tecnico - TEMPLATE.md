@@ -91,7 +91,7 @@ Criar um site que contém informações sobre preços e ofertas de  supermercado
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
+De acordo com entrevistas feitas pessoalmente ou publicadas em redes sociais pela equipe, descobrimos que os gastos mensais com supermercados são muito altos. Isso afeta principalmente pessoas de classe média/baixa, como aquelas que vivem sozinhas com pouquíssima renda ou em grandes grupos familiares. Levando isso em conta o objetivo do nosso projeto é reduzir os gastos mensais com supermercados.
 
 > Descreva a importância ou a motivação para trabalhar com esta aplicação
 > que você escolheu. Indique as razões pelas quais você escolheu seus
