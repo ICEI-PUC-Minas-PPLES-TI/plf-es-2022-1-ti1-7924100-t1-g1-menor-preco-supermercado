@@ -195,19 +195,20 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Comparação de data base de preços.      |       | 
-|RF-002| Criar uma lista de compras              |       |
-|RF-003| Registrar um usuário                    |       |
-|RF-004| Verificar distância até os supermercados|       |
-|RF-005| Procurar um produto específico          |       |
+|RF-001| Comparação de data base de preços       |  ALTA  | 
+|RF-002| Criar uma lista de compras              |  ALTA  |
+|RF-003| Registrar um usuário                    |  MÉDIA |
+|RF-004| Verificar distância até os supermercados|  BAIXA |
+|RF-005| Procurar um produto específico          |  BAIXA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| Funcionar em computadores e celulares |       | 
-|RNF-002| Fácil de utilizar |      | 
-|RNF-003| Dados do usuário serem criptografados |       | 
+|RNF-001| Funcionar em computadores e celulares |  ALTA  | 
+|RNF-002| Fácil de utilizar |  MÉDIA  | 
+|RNF-003| Dados do usuário serem criptografados | BAIXO | 
+|RNF-004| O site compara os preços em menos de 1 segundo | BAIXO |
 
 
 
