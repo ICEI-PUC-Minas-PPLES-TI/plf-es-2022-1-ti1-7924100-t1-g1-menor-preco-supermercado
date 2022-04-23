@@ -132,7 +132,7 @@ Nosso público alvo são pessoas de classe  média ou baixa, normalmente respons
 > Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
 > realizar a especificações do projeto
-
+>As especificações de projeto são um conjunto de informações, estabelecidas com base nas necessidades dos clientes, que definem metas (valores quantitativos) para os requisitos de projeto do produto.
 ## Personas e Mapas de Empatia
 
 ![persona1](https://user-images.githubusercontent.com/103961231/164944094-927ea717-bf17-4c0c-8527-da14a87c1110.jpg)
