@@ -107,7 +107,8 @@ Criar um site que contém informações sobre preços e ofertas de  supermercado
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Nosso público alvo são pessoas de classe  média ou baixa, normalmente responsáveis  pelas compras ou finanças da casa. Ele é  composto pelo tipo de pessoa que gastaria  um esforço a mais para economizar dinheiro  onde pode.
+
 
 > Descreva quem serão as pessoas que usarão a sua aplicação indicando os
 > diferentes perfis. O objetivo aqui não é definir quem serão os
