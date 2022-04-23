@@ -82,7 +82,8 @@ Os gastos mensais com supermercados são muito altos. Isso é algo que afeta pri
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Criar um site que contém informações sobre preços e ofertas de  supermercados.
+
 
 > Aqui você deve descrever os objetivos do trabalho indicando que o
 > objetivo geral é desenvolver um software para solucionar o problema
