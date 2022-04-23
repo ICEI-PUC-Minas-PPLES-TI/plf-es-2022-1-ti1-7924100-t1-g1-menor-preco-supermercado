@@ -172,7 +172,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-
 |Estudante      | Saber quais supermercados ficam abertos até mais tarde ou abrem mais cedo       | Permitir que faça as compras |
 |Pessoa que faz as compras da família | Saber se o supermercado aceita vale alimentação       | Permitir que faça o pagamento |
 |Pessoa sem carro | Saber quais os supermercados tem opção de entrega       | Não precisar sair de casa|
