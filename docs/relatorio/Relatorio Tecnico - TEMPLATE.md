@@ -161,7 +161,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 
 ## User Flow
-![image](https://user-images.githubusercontent.com/104273775/164998206-e7ce6da7-16cc-47fd-a98e-9b6df85d9a1b.png)
+
+![Screenshot (9)](https://user-images.githubusercontent.com/103607467/165000193-de31a12b-cfd1-4f29-8a5e-3536330779f9.png)
 
 
 
