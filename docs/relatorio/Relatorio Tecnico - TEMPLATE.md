@@ -301,6 +301,16 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Metodologia
 
+Divisão de tarefas: 
+
+1- Criar uma ferramenta de busca - Lucas
+2- Criar uma ferramenta de comparação de data base de preços  - Pedro
+3- Criar um sistema de login e identificação do usuário - Guilherme
+4- Ferramenta para verificar a distância até os supermercados - Joao
+5- Criar ferramenta de lista de compras - Joaquim
+6- Criar ferramenta de filtro - Matheus
+7- Iniciar o front end - Gustavo
+
 Design Thinking e Scrum(!!!!!!!!!!!!!!!!!!!!!)
 
 > Nesta parte do documento, você deve apresentar a metodologia 
