@@ -59,41 +59,27 @@ Engenharia de Software
 
 Os gastos mensais com supermercados são muito altos. Isso é algo que afeta principalmente pessoas de classe baixa/média e acontece por não ser fácil de saber qual produto é mais barato e onde aquele produto é mais barato.
 
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
->
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
->
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+
 
 ## Objetivos
 
 Criar um site que contém informações sobre preços e ofertas de  supermercados.
 
 
-> Aqui você deve descrever os objetivos do trabalho indicando que o
+`> Aqui você deve descrever os objetivos do trabalho indicando que o
 > objetivo geral é desenvolver um software para solucionar o problema
 > apresentado acima. Apresente também alguns (pelo menos 2) objetivos
 > específicos dependendo de onde você vai querer concentrar a sua
 > prática investigativa, ou como você vai aprofundar no seu trabalho.
 > 
 > **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)`
 
 ## Justificativa
 
 De acordo com entrevistas feitas pessoalmente ou publicadas em redes sociais pela equipe, descobrimos que os gastos mensais com supermercados são muito altos. Isso afeta principalmente pessoas de classe média/baixa, como aquelas que vivem sozinhas com pouquíssima renda ou em grandes grupos familiares. Levando isso em conta o objetivo do nosso projeto é reduzir os gastos mensais com supermercados.
 
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
+`> Descreva a importância ou a motivação para trabalhar com esta aplicação
 > que você escolheu. Indique as razões pelas quais você escolheu seus
 > objetivos específicos ou as razões para aprofundar em certos aspectos
 > do software.
@@ -103,14 +89,14 @@ De acordo com entrevistas feitas pessoalmente ou publicadas em redes sociais pel
 > esclarecer detalhes do problema que será abordado pelo grupo.
 >
 > **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)`
 
 ## Público-Alvo
 
 Nosso público alvo são pessoas de classe  média ou baixa, normalmente responsáveis  pelas compras ou finanças da casa. Ele é  composto pelo tipo de pessoa que gastaria  um esforço a mais para economizar dinheiro  onde pode.
 
 
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
+`> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
 > diferentes perfis. O objetivo aqui não é definir quem serão os
 > clientes ou quais serão os papéis dos usuários na aplicação. A ideia
 > é, dentro do possível, conhecer um pouco mais sobre o perfil dos
@@ -123,16 +109,16 @@ Nosso público alvo são pessoas de classe  média ou baixa, normalmente respons
 > 
 > **Links Úteis**:
 > - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)`
  
 # Especificações do Projeto
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
-> Apresente uma visão geral do que será abordado nesta parte do
+`> Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
 > realizar a especificações do projeto
->As especificações de projeto são um conjunto de informações, estabelecidas com base nas necessidades dos clientes, que definem metas (valores quantitativos) para os requisitos de projeto do produto.
+>As especificações de projeto são um conjunto de informações, estabelecidas com base nas necessidades dos clientes, que definem metas (valores quantitativos) para os requisitos de projeto do produto.`
 ## Personas e Mapas de Empatia
 
 ![persona1](https://user-images.githubusercontent.com/103961231/164944094-927ea717-bf17-4c0c-8527-da14a87c1110.jpg)
@@ -143,7 +129,7 @@ Nosso público alvo são pessoas de classe  média ou baixa, normalmente respons
 
 
 
-> Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
+`> Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
 > você deve ser enumerar e descrever precisamente e de forma
 > personalizada todos os principais envolvidos com a solução almeja. 
 > 
@@ -163,7 +149,7 @@ Nosso público alvo são pessoas de classe  média ou baixa, normalmente respons
 > 
 > ![Exemplo de Persona](imaages/../images/persona.png)
 > 
-> Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
+> Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)`
 
 
 ## Histórias de Usuários
@@ -176,7 +162,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Pessoa que faz as compras da família | Saber se o supermercado aceita vale alimentação       | Permitir que faça o pagamento |
 |Pessoa sem carro | Saber quais os supermercados tem opção de entrega       | Não precisar sair de casa|
 
-> Apresente aqui as histórias de usuário que são relevantes para o
+`> Apresente aqui as histórias de usuário que são relevantes para o
 > projeto de sua solução. As Histórias de Usuário consistem em uma
 > ferramenta poderosa para a compreensão e elicitação dos requisitos
 > funcionais e não funcionais da sua aplicação. Se possível, agrupe as
@@ -185,7 +171,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 >
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)`
 
 ## Requisitos
 
@@ -212,7 +198,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 
 
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
+`> Com base nas Histórias de Usuário, enumere os requisitos da sua
 > solução. Classifique esses requisitos em dois grupos:
 >
 > - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
@@ -231,7 +217,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 > **Links Úteis**:
 > 
 > - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)`
 
 
 ## Restrições
@@ -244,27 +230,27 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |02| Não pode ser desenvolvido um módulo de backend        |
 
 
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
+`> Enumere as restrições à sua solução. Lembre-se de que as restrições
 > geralmente limitam a solução candidata.
 > 
 > **Links Úteis**:
 > - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)`
 
 
 # Projeto de Interface
 
 ......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
 
-> Apresente as principais interfaces da solução. Discuta como 
+`> Apresente as principais interfaces da solução. Discuta como 
 > foram elaboradas de forma a atender os requisitos funcionais, não
 > funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
+> Projeto](#especificações-do-projeto).`
 
 ## User Flow
 ![image](https://user-images.githubusercontent.com/104273775/164998206-e7ce6da7-16cc-47fd-a98e-9b6df85d9a1b.png)
 
-> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
+`> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
 > mapear todo fluxo de telas do site ou app. Essa técnica funciona
 > para alinhar os caminhos e as possíveis ações que o usuário pode
 > fazer junto com os membros de sua equipe.
@@ -276,14 +262,14 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 >
 > **Exemplo**:
 > 
-> ![Exemplo de UserFlow](images/userflow.jpg)
+> ![Exemplo de UserFlow](images/userflow.jpg)`
 
 
 ## Wireframes
 
 ......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
 
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
+`> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
 > estrutura de um site web e seu relacionamentos entre suas
 > páginas. Um wireframe web é uma ilustração semelhante ao
 > layout de elementos fundamentais na interface.
@@ -296,7 +282,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > 
 > **Exemplo**:
 > 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
+> ![Exemplo de Wireframe](images/wireframe-example.png)`
 
 
 # Metodologia
@@ -313,7 +299,7 @@ Divisão de tarefas:
 
 Design Thinking e Scrum(!!!!!!!!!!!!!!!!!!!!!)
 
-> Nesta parte do documento, você deve apresentar a metodologia 
+`> Nesta parte do documento, você deve apresentar a metodologia 
 > adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
 > a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
 > gestão de configuração do projeto via GitHub.
@@ -327,17 +313,24 @@ Design Thinking e Scrum(!!!!!!!!!!!!!!!!!!!!!)
 > - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
 > - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
 > - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+> - [Tutorial Slack](https://slack.com/intl/en-br/)`
 
 ## Divisão de Papéis
+ 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+1- Criar uma ferramenta de busca - Lucas
+2- Criar uma ferramenta de comparação de data base de preços  - Pedro
+3- Criar um sistema de login e identificação do usuário - Guilherme
+4- Ferramenta para verificar a distância até os supermercados - Joao
+5- Criar ferramenta de lista de compras - Joaquim
+6- Criar ferramenta de filtro - Matheus
+7- Iniciar o front end - Gustavo
 
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
+`> Apresente a divisão de papéis e tarefas entre os membros do grupo.
 >
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)`
 
 
 ## Ferramentas
@@ -351,7 +344,7 @@ Design Thinking e Scrum(!!!!!!!!!!!!!!!!!!!!!)
 |Protótipo Interativo | Figma | https://www.figma.com/proto/doRPjt8OcjLV4CTF1RbcVf/Untitled?node-id=30%3A4&scaling=scale-down&page-id=0%3A1&starting-point-node-id=30%3A4 | 
 |Projeto protótipo| Figma | https://www.figma.com/file/doRPjt8OcjLV4CTF1RbcVf/Untitled?node-id=0%3A1 |
 
->
+`>
 > Liste as ferramentas empregadas no desenvolvimento do
 > projeto, justificando a escolha delas, sempre que possível.
 > 
@@ -372,13 +365,13 @@ Design Thinking e Scrum(!!!!!!!!!!!!!!!!!!!!!)
 > - [Getting Started with Heroku](https://devcenter.heroku.com/start)
 > - [Crie seu Site com o HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
 > - [GoDady](https://br.godaddy.com/how-to)
-> - [GitHub Pages](https://pages.github.com/)
+> - [GitHub Pages](https://pages.github.com/)`
 
 ## Controle de Versão
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
-> Discuta como a configuração do projeto foi feita na ferramenta de
+`> Discuta como a configuração do projeto foi feita na ferramenta de
 > versionamento escolhida. Exponha como a gerência de tags, merges,
 > commits e branchs é realizada. Discuta como a gerência de issues foi
 > realizada.
@@ -407,7 +400,7 @@ Design Thinking e Scrum(!!!!!!!!!!!!!!!!!!!!!)
 >
 > **Exemplo - GitHub Feature Branch Workflow**:
 >
-> ![Exemplo de Wireframe](images/Github-Workflow.png)
+> ![Exemplo de Wireframe](images/Github-Workflow.png)`
 
 # **############## SPRINT 1 ACABA AQUI #############**
 
