@@ -17,6 +17,7 @@ O Preçola tem como finalidade auxiliar todas as pessoas que procuram o melhor p
 * Rommel Vieira Carneiro
 * Roberto Felipe Dias Ferreira da Rocha
 * Johnatan Alves de Oliveira
+* Felipe Augusto Lara Soares
 
 ## Instruções de utilização
 
