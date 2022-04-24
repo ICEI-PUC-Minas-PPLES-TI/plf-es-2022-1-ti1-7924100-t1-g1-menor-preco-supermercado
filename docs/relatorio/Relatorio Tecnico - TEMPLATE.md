@@ -84,7 +84,8 @@ Nosso público alvo são pessoas de classe  média ou baixa, normalmente respons
 # Especificações do Projeto
 
 O projeto visa a criação de um site com ferramentas que permitam a pesquisa de produtos e a respectiva comparação de preço de tais produtos com o intuito de encontrar a sua instância mais barata. O projeto também prevê a criação de uma ferramentas para verificar os supermercados em um determinado raio, um filtro de busca, criação de lista de compras, verificação da possibilidade de entrega e a possibilidade de fazer login. O site final deve ser intuitivo e ser completamente funcional em desktop e mobile.
- Técnicas e/ou ferramentas utilizadas:
+ 
+ >Técnicas e/ou ferramentas utilizadas:
  -Entrevistas
  -Google forms
 
