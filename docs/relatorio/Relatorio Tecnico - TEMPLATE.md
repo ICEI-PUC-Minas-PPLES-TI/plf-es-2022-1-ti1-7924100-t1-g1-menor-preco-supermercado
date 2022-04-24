@@ -333,14 +333,13 @@ Design Thinking e Scrum(!!!!!!!!!!!!!!!!!!!!!)
 
 ## Ferramentas
 
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
+
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
-|Repositório de código | GitHub | https://github.com/XXXXXXX | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
+|Processo de Design Thinkgin  | Miro |  https://miro.com/app/board/uXjVOBTKDUw=/ | 
+|Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7924100-t1-g1-menor-preco-supermercado/tree/master/codigo | 
+|Protótipo Interativo | MavelApp ou Figma | https://www.figma.com/proto/doRPjt8OcjLV4CTF1RbcVf/Untitled?node-id=30%3A4&scaling=scale-down&page-id=0%3A1&starting-point-node-id=30%3A4 | 
 
 >
 > Liste as ferramentas empregadas no desenvolvimento do
