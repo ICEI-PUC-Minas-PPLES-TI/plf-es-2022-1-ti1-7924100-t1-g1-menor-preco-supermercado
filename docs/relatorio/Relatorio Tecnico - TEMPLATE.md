@@ -83,12 +83,12 @@ Nosso público alvo são pessoas de classe  média ou baixa, normalmente respons
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O projeto visa a criação de um site com ferramentas que permitam a pesquisa de produtos e a respectiva comparação de preço de tais produtos com o intuito de encontrar a sua instância mais barata. O projeto também prevê a criação de uma ferramentas para verificar os supermercados em um determinado raio, um filtro de busca, criação de lista de compras, verificação da possibilidade de entrega e a possibilidade de fazer login. O site final deve ser intuitivo e ser completamente funcional em desktop e mobile.
+ Técnicas e/ou ferramentas utilizadas:
+ -Entrevistas
+ -Google forms
 
-`> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
->As especificações de projeto são um conjunto de informações, estabelecidas com base nas necessidades dos clientes, que definem metas (valores quantitativos) para os requisitos de projeto do produto.`
+
 ## Personas e Mapas de Empatia
 
 ![persona1](https://user-images.githubusercontent.com/103961231/164944094-927ea717-bf17-4c0c-8527-da14a87c1110.jpg)
