@@ -262,8 +262,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > Projeto](#especificações-do-projeto).
 
 ## User Flow
-
-......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
+![image](https://user-images.githubusercontent.com/104273775/164998206-e7ce6da7-16cc-47fd-a98e-9b6df85d9a1b.png)
 
 > Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
 > mapear todo fluxo de telas do site ou app. Essa técnica funciona
