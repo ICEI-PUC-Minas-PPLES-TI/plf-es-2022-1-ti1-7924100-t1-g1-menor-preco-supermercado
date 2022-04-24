@@ -157,12 +157,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
 
-`> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).`
 
 ## User Flow
 ![image](https://user-images.githubusercontent.com/104273775/164998206-e7ce6da7-16cc-47fd-a98e-9b6df85d9a1b.png)
@@ -187,23 +182,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 
 
-Design Thinking e Scrum(!!!!!!!!!!!!!!!!!!!!!)
+Design Thinking e Scrum
 
-`> Nesta parte do documento, você deve apresentar a metodologia 
-> adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
-> a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
-> gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
-> 
-> **Links Úteis**:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)`
+
 
 ## Divisão de Papéis
  
@@ -230,27 +211,7 @@ Design Thinking e Scrum(!!!!!!!!!!!!!!!!!!!!!)
 |Protótipo Interativo | Figma | https://www.figma.com/proto/doRPjt8OcjLV4CTF1RbcVf/Untitled?node-id=30%3A4&scaling=scale-down&page-id=0%3A1&starting-point-node-id=30%3A4 | 
 |Projeto protótipo| Figma | https://www.figma.com/file/doRPjt8OcjLV4CTF1RbcVf/Untitled?node-id=0%3A1 |
 
-` Liste as ferramentas empregadas no desenvolvimento do
-projeto, justificando a escolha delas, sempre que possível.
 
- As ferramentas empregadas no projeto são:
- 
- -Editor de código.
- -Ferramentas de comunicação
-  Ferramentas de diagramação
- -Plataforma de hospedagem
- 
- O editor de código foi escolhido porque ele possui uma integração com o
- sistema de versão. As ferramentas de comunicação utilizadas possuem
- integração semelhante e por isso foram selecionadas. Por fim, para criar
- diagramas utilizamos essa ferramenta por melhor captar as
- necessidades da nossa solução.
- 
-**Links Úteis - Hospedagem**:
-[Getting Started with Heroku](https://devcenter.heroku.com/start)
-[Crie seu Site com o HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
-[GoDady](https://br.godaddy.com/how-to)
-[GitHub Pages](https://pages.github.com/)`
 
 ## Controle de Versão
 
