@@ -4,7 +4,6 @@ O Preçola tem como finalidade auxiliar todas as pessoas que procuram o melhor p
 
 ## Alunos integrantes da equipe
 
-* Guilherme Martini Brina Ferreira
 * Gustavo Henrique de Lima e Silva
 * João Paulo Goulart Machado
 * Joaquim de Moura Thomaz Neto
