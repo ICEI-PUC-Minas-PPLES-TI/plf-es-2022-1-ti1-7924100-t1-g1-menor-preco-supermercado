@@ -9,7 +9,6 @@ Engenharia de Software
 
 ## Participantes
 
-- Guilherme Martini Brina Ferreira
 - Gustavo Henrique de Lima e Silva
 - João Paulo Goulart Machado
 - Joaquim de Moura Thomaz Neto
