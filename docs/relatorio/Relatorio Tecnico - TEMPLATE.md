@@ -241,7 +241,14 @@ Design Thinking e Scrum
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Criamos um site simples e intuitivo para que o usuario possa criar uma
+conta para poder salvar supermercados e produtos como favoritos para
+facilitar em uma eventual segunda compra, além disso o cliente conta com
+uma pagina para localizar os supermercados mais proximos e com uma lista
+de compras que possibilita a visualização do preço final de uma determinada
+compra em todos os supermercados cadastrados, possibilitando assim que o 
+cliente possa decidir em que supermercado ir baseado no preço de sua lista
+e da distancia entre os 2.
 
 ## Tecnologias Utilizadas
 
