@@ -263,6 +263,10 @@ Utilizamos o Figma para a criação de wireframes iniciais.
 
 O Flaticon foi utilizado para escolher o logo.
 
+O Miro foi escolhido como um espaço para esboçarmos as ideias do grupo.
+
+Por fim utilizamos o Github para realizar a documentação do projeto.
+
 
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
 > problema, ou seja, implementar a sua solução. Liste todas as
