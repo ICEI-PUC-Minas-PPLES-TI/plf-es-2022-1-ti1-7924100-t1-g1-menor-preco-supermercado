@@ -252,7 +252,17 @@ e da distancia entre os 2.
 
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O grupo fez a utilização de HTML, CSS e Java Script para a criação do
+projeto.
+
+Utilizamos o Visual Studio Code e o Replit para a programação.
+
+O Bootstrap foi utilizado para facilitar na criação das paginas dos site.
+
+Utilizamos o Figma para a criação de wireframes iniciais.
+
+O Flaticon foi utilizado para escolher o logo.
+
 
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
 > problema, ou seja, implementar a sua solução. Liste todas as
