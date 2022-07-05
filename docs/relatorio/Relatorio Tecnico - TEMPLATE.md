@@ -269,7 +269,7 @@ Design Thinking e Scrum
 > 
 > **Exemplo do diagrama de Arquitetura**:
 > 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
+> ![Exemplo de Arquitetura](images/arquitetura-exemplo(Replit).png)
 
 
 # Avaliação da Aplicação
