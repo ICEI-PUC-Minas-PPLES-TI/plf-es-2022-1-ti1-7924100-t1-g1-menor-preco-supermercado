@@ -262,10 +262,11 @@ Design Thinking e Scrum
 
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
+Para solucinarmos o problema proposto utilizamos HTML, CSS e Java Script
+para criar algumas páginas na web que permitem que o usuario crie sua 
+conta, selecione os produtos desejados em uma lista de compras, descubra
+os supermercados mais próximos dentre outras funcionalidades.
 
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
 > ![](images/arquitetura-exemplo(Replit).png)
 
 
