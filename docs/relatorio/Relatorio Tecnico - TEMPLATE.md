@@ -266,6 +266,7 @@ Para solucinarmos o problema proposto utilizamos HTML, CSS e Java Script
 para criar algumas páginas na web que permitem que o usuario crie sua 
 conta, selecione os produtos desejados em uma lista de compras, descubra
 os supermercados mais próximos dentre outras funcionalidades.
+
 Preferimos a utilização do site Replit para hospedagem do site pois sua 
 interface mais intuitiva proporciona uma maior simplicidade para a 
 realização dessa tarefa.
