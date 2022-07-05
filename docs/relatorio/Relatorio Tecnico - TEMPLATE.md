@@ -266,9 +266,6 @@ Design Thinking e Scrum
 
 > Inclua um diagrama da solução e descreva os módulos e as tecnologias
 > que fazem parte da solução. Discorra sobre o diagrama.
-> 
-> **Exemplo do diagrama de Arquitetura**:
-> 
 > ![](images/arquitetura-exemplo(Replit).png)
 
 
