@@ -308,8 +308,8 @@ realização dessa tarefa.
 
 # Referências
 
->[Flat icon](https://www.flaticon.com/)
->[Bootstrap](https://getbootstrap.com)
->[Figma](https://www.figma.com)
->[Replit](https://replit.com/~)
+- [Flat icon](https://www.flaticon.com/)
+- [Bootstrap](https://getbootstrap.com)
+- [Figma](https://www.figma.com)
+- [Replit](https://replit.com/~)
 
