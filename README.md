@@ -20,4 +20,4 @@ O Preçola tem como finalidade auxiliar todas as pessoas que procuram o melhor p
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+O sistema consiste em uma página web que pode ser acessada por meio deste link [https://precola.pedrovasconce17.repl.co/index.html](https://precola.pedrovasconce17.repl.co/index.html)
