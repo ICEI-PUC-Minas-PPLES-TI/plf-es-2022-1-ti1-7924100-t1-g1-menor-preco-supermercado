@@ -235,10 +235,6 @@ Design Thinking e Scrum
  - `feature`: uma nova funcionalidade precisa ser introduzida
 
 
-
-# **############## SPRINT 1 ACABA AQUI #############**
-
-
 # Projeto da Solução
 
 Criamos um site simples e intuitivo para que o usuario possa criar uma
@@ -249,6 +245,7 @@ de compras que possibilita a visualização do preço final de uma determinada
 compra em todos os supermercados cadastrados, possibilitando assim que o 
 cliente possa decidir em que supermercado ir baseado no preço de sua lista
 e da distancia entre os 2.
+
 
 ## Tecnologias Utilizadas
 
@@ -268,19 +265,6 @@ O Miro foi escolhido como um espaço para esboçarmos as ideias do grupo.
 Por fim utilizamos o Github para realizar a documentação do projeto.
 
 
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
-> 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
-
 ## Arquitetura da solução
 
 Para solucinarmos o problema proposto utilizamos HTML, CSS e Java Script
@@ -297,34 +281,41 @@ realização dessa tarefa.
 
 # Avaliação da Aplicação
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A equipe realizou testes com diferentes grupos de diferentes niveis de 
+escolaridade e diferentes faixas etarias, coletando dados que ajudaram
+na escolha da paleta de cores e no layout final do site, além disso, as
+funcionalidades julgadas como as mais importantes pelos clientes foram 
+priorizadas de forma a entregar um site funcinal porém com muito espaço
+para melhorias.
 
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O grupo realizou testes diversos durante a fase de programação do site
+e também após o fim das implementações, como:
 
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
-> 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
+-Testes de usabilidade.
+-Testes A/B.
+-Testes funcinais.
+-Testes regressivos.
+
+Além desses, a equipe também realizou testes individualmente para garantir
+que todas as funcionalidades estivesses funcinando corretamente e também 
+optamos por testes após o termino do software para checar falhas ao juntarmos
+as partes de cada membro.
+
 
 ## Registros de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
-> as melhorias geradas a partir dos resultados obtidos nos testes.
+A equipe se deparou com varios problemas principalmente nos testes
+das partes individuais, foram encontrados erros ao tentarmos utilizar
+algumas API's além de erros principalmente na parte de Java Script.
+Além disso, ao realizar os testes finais na pagina definitiva, o grupo
+se deparou com um pequeno erro que fazia com que ao selecionar a quantidade
+desejada de algum produto o sistema salvava essa quantidade e a mostrava
+quando fosse selecionado outro tipo de produto. Outro erro encontrado foi
+a possibilidade de adicionar um numero negativo como quantidade de um
+produto.
 
 
 # Referências
