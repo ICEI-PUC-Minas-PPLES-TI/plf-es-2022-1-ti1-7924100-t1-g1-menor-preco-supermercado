@@ -41,7 +41,6 @@ Engenharia de Software
   - [Divisão de Papéis](#divisão-de-papéis)
   - [Ferramentas](#ferramentas)
   - [Controle de Versão](#controle-de-versão)
-- [**############## SPRINT 1 ACABA AQUI #############**](#-sprint-1-acaba-aqui-)
 - [Projeto da Solução](#projeto-da-solução)
   - [Tecnologias Utilizadas](#tecnologias-utilizadas)
   - [Arquitetura da solução](#arquitetura-da-solução)
@@ -294,10 +293,10 @@ para melhorias.
 O grupo realizou testes diversos durante a fase de programação do site
 e também após o fim das implementações, como:
 
--Testes de usabilidade.
--Testes A/B.
--Testes funcinais.
--Testes regressivos.
+ - Testes de usabilidade.
+ - Testes A/B.
+ - Testes funcinais.
+ - Testes regressivos.
 
 Além desses, a equipe também realizou testes individualmente para garantir
 que todas as funcionalidades estivesses funcinando corretamente e também 
