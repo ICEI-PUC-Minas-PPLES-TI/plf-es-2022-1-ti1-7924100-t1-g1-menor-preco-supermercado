@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atualizar preços</title>
+    <link rel="stylesheet" href="assets/css/atualizapreco.css"/>
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <a href="index.html"> <img class="big-circle" src="images/logoPreçola.png" alt=""></a>
+      <!--<img src="img/shape.png" class="square" alt="" />-->
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Nos ajude a te ajudar!</h3>
+          <p class="text">
+           Caso encontre um produto com o preço diferente do site, envie os dados para que possamos atualizar.
+          </p>
+
+         <!-- <div class="info">
+            <div class="information">
+              <img src="img/location.png" class="icon" alt="" />
+              <p></p>
+            </div>
+            <div class="information">
+              <img src="img/email.png" class="icon" alt="" />
+              <p></p>
+            </div>
+            <div class="information">
+              <img src="img/phone.png" class="icon" alt="" />
+              <p></p>
+            </div>
+          </div>
+-->
+          <div class="social-media">
+           <a href="index.html"> <p>Voltar</p></a>
+           
+           <div class="social-icons">
+            
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span> <!--Circulo-->
+          <span class="circle two"></span>
+
+          <form action="https://api.staticforms.xyz/submit" method="post">
+            <input type="hidden" name="accessKey" value="df8415cc-e7f6-400a-ae46-04e0b7a58926">
+           
+            <h3 class="title">Formulário:</h3>
+            <div class="input-container">
+              <input id="produto" type="text" name="$Nome do produto" class="input" required />
+              <label for="">Produto</label>
+              <span>Produto</span>
+            </div>
+            <div class="input-container">
+              <input id="marca" type="text" name="$Marca" class="input" required />
+              <label for="">Marca</label>
+              <span>Marca</span>
+            </div>
+            <div class="input-container">
+              <input id="preço" type="text" name="$Preço" class="input" required />
+              <label for="">Preço</label>
+              <span>Preço</span>
+            </div>
+            <div class="input-container">
+              <input id="mercado" type="text" name="$Mercado" class="input" required />
+              <label for="">Mercado</label>
+              <span>Mercado</span>
+            </div>
+            <!--<div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div> -->
+            <input id="enviar" type="submit" value="Enviar" class="btn" />
+            
+            <input type="hidden" name="redirectTo" value="">
+          
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/atualizaPreco.js"></script>
+  
+
+  
+</form>
+</body>
+</html>

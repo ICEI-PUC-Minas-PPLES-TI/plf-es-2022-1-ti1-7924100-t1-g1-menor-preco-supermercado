@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Editorial by HTML5 UP</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="is-preload" onload="butaologin()">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<div id="main">
+			<div class="inner">
+
+				<!-- Header -->
+				<header id="header">
+					
+				</header>
+				
+				<section>
+			
+
+					<span class="image main"><img src="images/preçolaa.png" alt="" /></span>
+					
+					
+					<div class="area-pesquisa">
+						
+						<div class="pesquisa">
+							<div class="search-box">
+								<a href="resultadoPesquisa.html"><button onclick="Pesquisa()" class="btn-search"><i class="fas fa-search"></i></button></a>
+								<input type="text" class="input-search" id="inputPesquisa" placeholder="Ex: Banana; Nivea">
+							</div>
+				
+						</div>
+					</div>
+				
+	
+				</section>
+				<!-- Banner -->
+				<section id="banner">
+					
+
+				</section>
+
+			</div>
+			<!-- Content -->
+			
+
+		</div>
+
+<!-- Sidebar -->
+<div id="sidebar">
+	<div class="inner">
+
+		<!-- Search --
+		<section id="search" class="alt">
+			<form method="post" action="#">
+				<input type="text" name="query" id="query" placeholder="Search" />
+			</form>
+		</section>-->
+
+		<!-- Menu -->
+		<nav id="menu">
+			<header class="major">
+				<input type="button" class="astext" id="btnlogin" onclick="paginalogin()">
+			</header>
+			<ul>
+				<li><input type="button" class="astext" value="Listas Favoritadas" onclick="listasFavoritast()">
+				</li>
+				<li><input type="button" class="astext" value="Pedidos Antigos" onclick="pedidosAntigost()">
+				</li>
+				<li><a href="atualizaPreco.html"><input type="button" class="astext" value="Atualizar Preço"></a>
+				</li>
+			</ul>
+		</nav>
+
+		<script> function listasFavoritast() {
+
+				if (sessionStorage.getItem('status') != null) {
+
+					window.location.replace("favoritos.html");
+
+				}
+				else {
+
+					alert("Para utilizar essa funçao voce deve fazer login");
+
+				}
+
+			}
+
+			function pedidosAntigost() {
+
+				if (sessionStorage.getItem('status') != null) {
+
+					window.location.replace("historico.html");
+
+
+				}
+				else {
+
+					alert("Para utilizar essa funçao voce deve fazer login");
+
+				}
+
+			}
+
+			function paginalogin() {
+
+				if (sessionStorage.getItem('status') != null) {
+
+					window.sessionStorage.removeItem('status');
+					window.location.href = "index.html"
+
+				}
+				else {
+
+					window.location.href = "login.html";
+
+				}
+
+
+			}
+
+
+		</script>
+
+
+
+
+		<!-- Footer -->
+		<footer id="footer">
+
+
+		</footer>
+
+	</div>
+</div>
+
+</div>
+
+<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script>
+        function Pesquisa(){
+
+            var iP =  document.getElementById('inputPesquisa').value;
+            sessionStorage.setItem("resultadoPesquisa", iP);
+
+        }
+    </script>
+	<script> function butaologin() {
+					
+		if (sessionStorage.getItem('status') != null) {
+
+
+			document.getElementById("btnlogin").value = "Log out";
+
+		}
+		else {
+
+			document.getElementById("btnlogin").value = "Login";
+
+		}
+	}
+		</script>
+
+</body>
+
+</html>

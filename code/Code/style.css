@@ -1,0 +1,88 @@
+label {
+    font-weight: bolder;
+}
+::placeholder {
+    color: #ffd52e !important;
+    opacity: 3;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:  #ffd52e !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:  #ffd52e !important;
+    opacity:  3;
+ }
+ h1 {
+     text-align: center;
+ }
+ #msg {
+     height: 60px;
+ }
+ #grid-produtos tbody {
+     cursor: pointer;
+ }
+ .btnmodal {
+
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+
+ }
+ .modal-header {
+
+    background: #ffd52e;
+ }
+
+ .btn {
+
+    background-color: #ffd52e;
+    font-family: "Roboto Slab", serif;
+    color: #000000;
+    border:none;
+ }
+ .btn:hover {
+    background-color: #ffd52e;
+    font-family: "Roboto Slab", serif;
+    color: #000000;
+    border:none;
+  }
+ .table {
+    font-family: "Roboto Slab", serif;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+body {
+
+    background-color: #f0f0f0;
+}
+
+.modal-title {
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+  }
+
+.input-search {
+
+    color: #000000;
+
+}
+
+#inputId {
+
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+
+ }
+ .astext {
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    color: #000000;
+
+}

@@ -1,0 +1,594 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Editorial by HTML5 UP</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="assets/css/resultados.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="is-preload">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<div id="main">
+			<div class="inner">
+
+				<!-- Header -->
+				<header id="header">
+
+					<p></p>
+					<p></p>
+					<p></p>
+					<p></p>
+					<p></p>
+					<p></p>
+
+					<div class="area-pesquisa">
+						<div class="pesquisa">
+							<div class="search-box">
+								<a href="resultadoPesquisa.html"><button onclick="Pesquisa()" class="btn-search"><i
+											class="fas fa-search"></i></button></a>
+								<input type="text" class="input-search" id="inputPesquisa"
+									placeholder="Ex: Banana; Nivea">
+							</div>
+
+						</div>
+					</div>
+					<p></p>
+					<p></p>
+					<p></p>
+					<p></p>
+					<a href="index.html"> <img id="logo" src="images/logoPreçola.png" alt="Logo preçola"> </a>
+				</header>
+
+				<body onload="ListaProdutos()">
+					<div class="container">
+
+						<div class="row">
+							<div class="col-sm-12">
+								<table id="grid-produtos" class="table table-striped">
+									<thead>
+										<tr>
+											<th scope="col">Id</th>
+											<th scope="col">Nome</th>
+											<th scope="col">Categoria</th>
+										</tr>
+									</thead>
+									<tbody id="table-produtos">
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+
+					<div class="container">
+						<!-- Trigger the modal with a button -->
+						<button type="button" data-toggle="modal" id="btnmodal" class="btnmodal"
+							data-target="#myModal">Open Modal</button>
+						<button type="button" data-toggle="modal" id="btnmodalcarrinho" class="btnmodal"
+							data-target="#myModalCarrinho">Open Modal</button>
+						<input type="text" class="form-control" id="inputId" placeholder="ID" disabled>
+						<!-- Modal -->
+						<div class="modal fade" id="myModal" role="dialog">
+							<div class="modal-dialog">
+
+								<!-- Modal content-->
+								<div class="modal-content">
+									<div class="modal-header">
+										<h4 class="modal-title">Adicione à lista de compras</h4>
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+									</div>
+									<div class="modal-body">
+										<input type="number" class="form-control" id="inputQuantidade" min="0"
+											value="0">
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default" onclick="adicionarLista()"
+											value="Adicionar">Adicionar</button>
+										<button type="button" class="btn btn-default" data-dismiss="modal"
+											value="Fechar">Fechar</button>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="modal fade" id="myModalCarrinho" role="dialog">
+							<div class="modal-dialog">
+
+								<!-- Modal content-->
+								<div class="modal-content">
+									<div class="modal-header">
+										<h4 class="modal-title">Carrinho de compras</h4>
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+									</div>
+									<div class="modal-body">
+										<div class="row">
+											<div class="col-sm-12">
+												<table id="grid-produtos" class="table table-striped">
+													<thead>
+														<tr>
+															<th scope="col">Nome</th>
+															<th scope="col">Quantidade</th>
+															<th scope="col">Preço</th>
+														</tr>
+													</thead>
+													<tbody id="table-produtosCarrinho">
+													</tbody>
+												</table>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-sm-12">
+												<table id="grid-produtos" class="table table-striped">
+													<thead>
+														<tr>
+															<th scope="col">Voce deve comprar no</th>
+															<th scope="col">Preço Total</th>
+														</tr>
+													</thead>
+													<tbody id="table-produtosResultado">
+													</tbody>
+												</table>
+											</div>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default" onclick="favoritar()"
+											value="Favoritar">Favoritar</button>
+										<a href="index.html"><button type="button" class="btn btn-default"
+												onclick="historico()" value="Concluir">Concluir</button></a>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+
+
+					<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+					<script src="app.js"></script>
+					<script>
+
+						function matches(text, partial) {
+							return text.toLowerCase().indexOf(partial.toLowerCase()) > -1
+						}
+						// função para listar na tabela os produtos que estão associados aos filtros 
+						function ListaProdutos() {
+
+							// Obtem os dados informados pelo usuário nos filtros
+
+							var iP = sessionStorage.getItem("resultadoPesquisa");
+
+							// limpa a lista de produtos apresentados
+							$("#table-produtos").empty();
+
+							var btn = document.createElement('input');
+							btn.type = "button";
+							btn.id = "btn";
+							btn.innerHTML = "Adicionar à lista";
+
+
+							// Popula a tabela com os registros do banco de dados
+							for (let index = 0; index < rp.data.length; index++) {
+								const produto = rp.data[index];
+
+								var matchNome = matches(produto.nome, iP)
+								var matchMarca = matches(produto.marca, iP)
+								var matchCategoria = matches(produto.categoria, iP)
+
+
+								// Verifica se os dados do produto batem com os filtros
+								if (((matchNome == true) || (matchMarca == true) || (matchCategoria == true) || (iP == ''))) {
+
+									// Inclui o produto na tabela    
+									$("#table-produtos").append(`<tr><td scope="row">${produto.id}</td>
+																	<td>${produto.nome}</td>
+																	<td>${produto.categoria}</td>
+																</tr>`);
+
+								}
+							}
+
+
+							var x = document.getElementById("table-produtos").rows.length;
+							if (x == 0) {
+
+								alert("Resultado nao disponivel");
+								let iP = '';
+								for (let index = 0; index < rp.data.length; index++) {
+									const produto = rp.data[index];
+
+									var matchNome = matches(produto.nome, iP)
+									var matchMarca = matches(produto.marca, iP)
+									var matchCategoria = matches(produto.categoria, iP)
+
+
+									// Verifica se os dados do produto batem com os filtros
+									if (((matchNome == true) || (matchMarca == true) || (matchCategoria == true) || (iP == ''))) {
+
+										// Inclui o produto na tabela    
+										$("#table-produtos").append(`<tr><td scope="row">${produto.id}</td>
+																	<td>${produto.nome}</td>
+																	<td>${produto.categoria}</td>
+																</tr>`);
+
+									}
+								}
+
+							}
+
+							$("#grid-produtos").on("click", "tr", function (e) {
+
+								document.getElementById("btnmodal").click();
+								let linhaProduto = this;
+								colunas = linhaProduto.querySelectorAll("td");
+								$("#inputQuantidade").val("0");
+								$("#inputId").val(colunas[0].innerText);
+
+							});
+
+							if (sessionStorage.getItem('status') != null) {
+
+
+								document.getElementById("btnlogin").value = "Log out";
+
+							}
+							else {
+
+								document.getElementById("btnlogin").value = "Login";
+
+							}
+
+
+						}
+
+					</script>
+
+					<script>
+
+						function adicionarLista() {
+
+							let campoId = $("#inputId").val();
+							let campoQuantidade = $("#inputQuantidade").val();
+							let produto = {
+								id: campoId,
+								quantidade: campoQuantidade
+							};
+
+							updateProduto(parseInt(campoId), produto);
+						}
+
+					</script>
+
+					<script>
+						function Pesquisa() {
+
+							var iP = document.getElementById('inputPesquisa').value;
+							sessionStorage.setItem("resultadoPesquisa", iP);
+
+						}
+					</script>
+
+					<script>
+						// função para listar na tabela os produtos que estão associados aos filtros 
+						function listacarrinho() {
+
+							// limpa a lista de produtos apresentados
+							$("#table-produtosCarrinho").empty();
+							$("#table-produtosResultado").empty();
+
+							var ptSupernosso = 0;
+							var ptVerdemar = 0;
+
+							// Popula a tabela com os registros do banco de dados
+							for (let index = 0; index < rp.data.length; index++) {
+
+								let produto2 = la.data[index];
+								let preço = ls.data[index];
+								let preço2 = lv.data[index];
+
+								// Verifica se os dados do produto batem com os filtros
+								if (produto2.quantidade != 0) {
+
+									ptSupernosso = ptSupernosso + parseFloat(produto2.quantidade) * parseFloat(preço.preço);
+									ptVerdemar = ptVerdemar + parseFloat(produto2.quantidade) * parseFloat(preço2.preço);
+								}
+
+							}
+
+							if (ptSupernosso > ptVerdemar) {
+
+								for (let index = 0; index < rp.data.length; index++) {
+
+									const produto = rp.data[index];
+									let produto2 = la.data[index];
+									let preço = lv.data[index];
+
+									if (produto2.quantidade != 0) {
+
+										let preço3 = parseFloat(produto2.quantidade) * parseFloat(preço.preço);
+
+										// Inclui o produto na tabela    
+										$("#table-produtosCarrinho").append(`<tr><td scope="row">${produto.nome}</td>
+                                                    <td>${produto2.quantidade}</td>
+                                                    <td>${preço3}</td>
+                                                </tr>`);
+
+										let campoNome = produto.nome;
+										let campoQuantidade = produto2.quantidade;
+										let campoPreço = preço3;
+										let produtoLista = {
+											nome: campoNome,
+											quantidade: campoQuantidade,
+											preço: campoPreço
+										};
+
+										insertProduto(produtoLista);
+
+
+									}
+
+
+								}
+
+								ptVerdemar = (Math.round(ptVerdemar * 100) / 100).toFixed(2);
+
+								$("#table-produtosResultado").append(`<tr><td scope="row">${"Verdemar"}</td>
+                                                    <td>${ptVerdemar}</td>
+                                                </tr>`);
+							}
+
+							if (ptSupernosso < ptVerdemar) {
+
+								for (let index = 0; index < rp.data.length; index++) {
+
+									const produto = rp.data[index];
+									let produto2 = la.data[index];
+									let preço = ls.data[index];
+
+
+									if (produto2.quantidade != 0) {
+
+										let preço3 = parseFloat(produto2.quantidade) * parseFloat(preço.preço);
+
+										// Inclui o produto na tabela    
+										$("#table-produtosCarrinho").append(`<tr><td scope="row">${produto.nome}</td>
+                                                    <td>${produto2.quantidade}</td>
+                                                    <td>${preço3}</td>
+                                                </tr>`);
+
+										let campoNome = produto.nome;
+										let campoQuantidade = produto2.quantidade;
+										let campoPreço = preço3;
+										let produtoLista = {
+											nome: campoNome,
+											quantidade: campoQuantidade,
+											preço: campoPreço
+										};
+
+										insertProduto(produtoLista);
+
+
+									}
+
+								}
+
+								ptSupernosso = (Math.round(ptSupernosso * 100) / 100).toFixed(2);
+
+								$("#table-produtosResultado").append(`<tr><td scope="row">${"Supernosso"}</td>
+                                                <td>${ptSupernosso}</td>
+                                                </tr>`);
+
+								let campoSupermercado = "Supernosso";
+								let campoPreçoTotal = ptSupernosso;
+								let produtoLista = {
+									supermercado: campoSupermercado,
+									preçoTotal: campoPreçoTotal
+								};
+
+								insertProdutoIndice(produtoLista);
+							}
+
+						}
+
+
+					</script>
+					<script> function favoritar() {
+
+							if (sessionStorage.getItem('status') != null) {
+
+								var idUsuario = JSON.parse(sessionStorage.getItem('usuarioCorrente'));
+								let campoUsuario = idUsuario.id;
+								let produtoLista = {
+									usuario: campoUsuario
+								};
+
+								insertProdutoFavoritos(produtoLista);
+
+							}
+
+
+
+							else {
+
+								alert("Para utilizar essa funçao voce deve fazer login");
+
+							}
+
+						}
+
+
+					</script>
+					<script> function historico() {
+
+							if (sessionStorage.getItem('status') != null) {
+
+								var idUsuario = JSON.parse(sessionStorage.getItem('usuarioCorrente'));
+								let campoUsuario = idUsuario.id;
+								let produtoLista = {
+									usuario: campoUsuario
+								};
+
+								insertProdutoHistorico(produtoLista);
+								window.localStorage.removeItem('lista_ativa');
+
+							}
+							else {
+
+								window.localStorage.removeItem('lista_ativa');
+
+							}
+
+						}
+
+
+					</script>
+
+				</body>
+				<section>
+
+
+				</section>
+				<!-- Banner -->
+				<section id="banner">
+
+
+				</section>
+
+			</div>
+			<!-- Content -->
+
+
+		</div>
+
+
+		<!--Carrinho de compras-->
+		<input type="image" src="images/carrinho.png" id="carrinho" onclick="carrinho()" />
+
+		<script> function carrinho() {
+
+				document.getElementById("btnmodalcarrinho").click();
+				listacarrinho();
+
+			}
+
+		</script>
+		<!-- Sidebar -->
+		<div id="sidebar">
+			<div class="inner">
+
+				<!-- Search --
+				<section id="search" class="alt">
+					<form method="post" action="#">
+						<input type="text" name="query" id="query" placeholder="Search" />
+					</form>
+				</section>-->
+
+				<!-- Menu -->
+				<nav id="menu">
+					<header class="major">
+						<input type="button" class="astext" id="btnlogin" onclick="paginalogin()">
+					</header>
+					<ul>
+						<li><input type="button" class="astext" value="Listas Favoritadas" onclick="listasFavoritast()">
+						</li>
+						<li><input type="button" class="astext" value="Pedidos Antigos" onclick="pedidosAntigost()">
+						</li>
+						<li><a href="atualizaPreco.html"><input type="button" class="astext"
+									value="Atualizar Preço"></a>
+						</li>
+					</ul>
+				</nav>
+
+				<script> function listasFavoritast() {
+
+						if (sessionStorage.getItem('status') != null) {
+
+							window.location.replace("favoritos.html");
+
+						}
+						else {
+
+							alert("Para utilizar essa funçao voce deve fazer login");
+
+						}
+
+					}
+
+					function pedidosAntigost() {
+
+						if (sessionStorage.getItem('status') != null) {
+
+							window.location.replace("historico.html");
+
+
+						}
+						else {
+
+							alert("Para utilizar essa funçao voce deve fazer login");
+
+						}
+
+					}
+
+					function paginalogin() {
+
+						if (sessionStorage.getItem('status') != null) {
+
+							window.sessionStorage.removeItem('status');
+							window.location.href = "resultadoPesquisa.html"
+
+						}
+						else {
+
+							window.location.href = "login.html";
+
+						}
+
+
+					}
+
+
+				</script>
+
+
+
+
+				<!-- Footer -->
+				<footer id="footer">
+
+
+				</footer>
+
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
