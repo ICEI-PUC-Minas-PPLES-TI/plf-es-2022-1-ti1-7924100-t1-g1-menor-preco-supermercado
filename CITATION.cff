@@ -1,0 +1,46 @@
+cff-version: 1.0.1
+message: Please cite this software using these metadata.
+title: T1-G1 - Dificuldade em encontrar menor preços de supermercado/gasolina (Preçola)
+authors:
+  - family-names: Martini Brina Ferreira
+    given-names: Guilherme
+  - family-names: de Lima e Silva
+    given-names: Gustavo Henrique
+  - family-names: Goulart Machado
+    given-names: João Paulo
+  - family-names: de Moura Thomaz Neto
+    given-names: Joaquim
+  - family-names: Nogueira Mazzieiro de Carvalho
+    given-names: Lucas
+  - family-names: Pereira
+    given-names: Matheus
+  - family-names: de Vasconcellos Franco
+    given-names: Pedro Henrique
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Augusto Lara Soares
+    given-names: Felipe
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Alves de Oliveira
+    given-names: Jonathan
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Felipe Dias Ferreira da Rocha
+    given-names: Roberto    
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Vieira Carneiro
+    given-names: Rommel
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: de Assis Alves da Silva
+    given-names: Simone
+
+keywords:
+  - preço
+  - supermercado
+repository-code: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7924100-t1-g1-menor-preco-supermercado
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2022-07-14 
